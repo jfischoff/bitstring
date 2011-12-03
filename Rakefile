@@ -55,7 +55,7 @@ BIN_DIR   = ROOT_DIR + '/bin'
 #file collections
 SRCS      = FileList["#{SRC_DIR}/*.cpp"]
 OBJS      = SRCS.replace_dir_and_ext(OBJ_DIR, 'o')
-LIB		    = LIB_DIR + "/librubiix.a"
+LIB		    = LIB_DIR + "/libbitstring.a"
 TEST_SRCS = FileList["#{TESTS_DIR}/*.cpp"]
 TESTS     = TEST_SRCS.replace_dir_and_remove_ext(BIN_DIR)
 
